@@ -21,7 +21,8 @@ public class BookShelf implements Aggregate {
         return last;
     }
 
-    public Iterator interrator() {
+    @Override
+    public Iterator iterator() {
         return new BookShelfIterator(this);
     }
 }

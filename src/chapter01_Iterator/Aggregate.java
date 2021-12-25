@@ -1,5 +1,5 @@
 package chapter01_Iterator;
 
 public interface Aggregate {
-    public abstract Iterator interrator();
+    public abstract Iterator iterator();
 }
