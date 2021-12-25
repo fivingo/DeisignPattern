@@ -1,5 +1,6 @@
 package chapter01_Iterator;
 
+/** 서가를 검색하는 클래스 */
 public class BookShelfIterator implements Iterator {
     private BookShelf bookShelf;
     private int index;

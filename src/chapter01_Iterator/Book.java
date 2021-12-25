@@ -1,5 +1,6 @@
 package chapter01_Iterator;
 
+/** 책을 나타내는 클래스 */
 public class Book {
     private String name;
 

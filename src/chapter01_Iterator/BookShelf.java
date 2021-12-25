@@ -1,5 +1,6 @@
 package chapter01_Iterator;
 
+/** 서가를 나타내는 클래스 */
 public class BookShelf implements Aggregate {
     private Book[] books;
     private int last = 0;
