@@ -3,7 +3,7 @@ package chapter06_Prototype;
 import chapter06_Prototype.framework.*;
 
 /** 동작 테스트용 클래스 */
-public class main {
+public class Main {
     public static void main(String[] args) {
         
         // 준비
