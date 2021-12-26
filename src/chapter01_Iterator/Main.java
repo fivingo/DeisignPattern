@@ -1,6 +1,6 @@
 package chapter01_Iterator;
 
-/** 동작 테스트용 클래스 */
+/** 동작 테스트용 클래스  */
 public class Main {
     public static void main(String[] args) {
         BookShelf bookShelf = new BookShelf(4);
