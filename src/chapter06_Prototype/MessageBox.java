@@ -1,4 +1,4 @@
-package chapter06_Prototype.Anonymous;
+package chapter06_Prototype;
 
 import chapter06_Prototype.framework.*;
 
