@@ -13,6 +13,7 @@ public class Main {
             Director director = new Director(textbuilder);
 
             director.construct();
+
             String result = textbuilder.getResult();
             System.out.println(result);
         } else if (args[0].equals("html")) {
@@ -20,6 +21,7 @@ public class Main {
             Director director = new Director(htmlbuilder);
 
             director.construct();
+
             String filename = htmlbuilder.getResult();
             System.out.println(filename + "가 작성되었습니다.");
         } else {
