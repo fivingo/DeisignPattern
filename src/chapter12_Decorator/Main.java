@@ -12,7 +12,7 @@ public class Main {
         b3.show();
 
         Display b4 = new SideBorder(new FullBorder(new FullBorder(new SideBorder(new FullBorder(
-                        new StringDisplay("I'm studying disign pattern.")), '*'))), '/');
+                new StringDisplay("I'm studying disign pattern.")), '*'))), '/');
 
         b4.show();
     }
