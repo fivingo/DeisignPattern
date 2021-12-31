@@ -4,11 +4,11 @@ import java.util.ArrayList;
 import java.util.Iterator;
 
 /** 디렉터리를 나타내는 클래스 */
-public class Diretory extends Entry {
+public class Directory extends Entry {
     private String name;
     private ArrayList directory = new ArrayList();
 
-    public Diretory(String name) {
+    public Directory(String name) {
         this.name = name;
     }
 

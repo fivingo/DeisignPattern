@@ -6,10 +6,10 @@ public class Main {
         try {
             System.out.println("Making root entries...");
 
-            Diretory rootdir = new Diretory("root");
-            Diretory bindir = new Diretory("bin");
-            Diretory tmpdir = new Diretory("tmp");
-            Diretory usrdir = new Diretory("usr");
+            Directory rootdir = new Directory("root");
+            Directory bindir = new Directory("bin");
+            Directory tmpdir = new Directory("tmp");
+            Directory usrdir = new Directory("usr");
 
             rootdir.add(bindir);
             rootdir.add(tmpdir);
@@ -23,9 +23,9 @@ public class Main {
             System.out.println("");
             System.out.println("Making user entries...");
 
-            Diretory Kim = new Diretory("Kim");
-            Diretory Lee = new Diretory("Lee");
-            Diretory Park = new Diretory("Park");
+            Directory Kim = new Directory("Kim");
+            Directory Lee = new Directory("Lee");
+            Directory Park = new Directory("Park");
 
             usrdir.add(Kim);
             usrdir.add(Lee);
