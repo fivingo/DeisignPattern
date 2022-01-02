@@ -9,7 +9,7 @@ public class HTMLBuilder extends Builder{
 
     @Override
     public void makeTitle(String title) {
-        filename = title + ".html";
+        filename = "src/chapter07_Builder/" + title + ".html";
 
         try {
             writer = new PrintWriter(new FileWriter(filename));
@@ -17,7 +17,7 @@ public class HTMLBuilder extends Builder{
             e.printStackTrace();
         }
 
-        writer.println("<html><head><title>" + title + "</title></head><body>");
+        writer.println("<html><head><meta charset=\"utf-8\"><title>" + title + "</title></head><body>");
         writer.println("<h1>" + title + "</h1>");
     }
 
