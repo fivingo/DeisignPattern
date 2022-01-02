@@ -20,7 +20,7 @@ public abstract class Page {
 
     public void output() {
         try {
-            String filename = title + ".html";
+            String filename = "src/chapter08_AbstractFactory/" + title + ".html";
             Writer writer = new FileWriter(filename);
 
             writer.write(this.makeHTML());

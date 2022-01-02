@@ -15,7 +15,7 @@ public class TablePage extends Page {
     public String makeHTML() {
         StringBuffer buffer = new StringBuffer();
 
-        buffer.append("<html><head><title>" + title + "</title></head>\n");
+        buffer.append("<html><head><meta charset=\"utf-8\"><title>" + title + "</title></head>\n");
         buffer.append("<body>\n");
         buffer.append("<h1>" + title + "</h1>\n");
         buffer.append("<table width=\"80%\" border=\"3\">\n");
