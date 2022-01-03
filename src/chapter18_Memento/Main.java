@@ -27,11 +27,11 @@ public class Main {
 
             // 시간 기다림
             try {
-                Thread.sleep(500);
+                Thread.sleep(1000);
             } catch (InterruptedException e) {
             }
 
-            System.out.println(" ");
+            System.out.println("");
         }
     }
 }

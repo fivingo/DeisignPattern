@@ -45,7 +45,7 @@ public class Gamer {
         while (it.hasNext()) {
             String f = (String) it.next();
 
-            if (f.startsWith("맛있는")) {
+            if (f.startsWith("맛있는 ")) {
                 m.addFruit(f);
             }
         }
@@ -63,12 +63,12 @@ public class Gamer {
     }
 
     public String getFruits() {
-        String prefix = " ";
+        String prefix = "";
 
         if (random.nextBoolean()) {
-            prefix = "맛있는";
+            prefix = "맛있는 ";
         }
 
-        return prefix = fruitsname[random.nextInt(fruitsname.length)];
+        return prefix + fruitsname[random.nextInt(fruitsname.length)];
     }
 }
