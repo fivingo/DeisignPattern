@@ -1,0 +1,15 @@
+package chapter20_Flyweight;
+
+/** 동작 테스트용 클래스 */
+public class Main {
+    public static void main(String[] args) {
+        if (args.length == 0) {
+            System.out.println("Usage: java Main digits");
+            System.out.println("Example: java Main 1212123");
+            System.exit(0);
+        }
+
+        BigString bs = new BigString(args[0]);
+        bs.print();
+    }
+}
