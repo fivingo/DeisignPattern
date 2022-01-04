@@ -46,8 +46,7 @@ public class Main extends JFrame implements ActionListener, MouseMotionListener,
     }
 
     @Override
-    public void mouseMoved(MouseEvent e) {
-    }
+    public void mouseMoved(MouseEvent e) {}
 
     @Override
     public void windowOpened(WindowEvent e) {}
