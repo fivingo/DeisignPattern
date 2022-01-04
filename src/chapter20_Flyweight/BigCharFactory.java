@@ -14,6 +14,7 @@ public class BigCharFactory {
         return singleton;
     }
 
+    // BigChar의 인스턴스 생성 (공유)
     public synchronized  BigChar getBigChar(char charname) {
         BigChar bc = (BigChar) pool.get("" + charname);
 
